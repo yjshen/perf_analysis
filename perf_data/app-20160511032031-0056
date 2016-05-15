@@ -1,0 +1,47 @@
+
+ Performance counter stats for process id '29038':
+
+ 7,523,924,093,582      cpu-cycles                #    2.481 GHz                     [12.91%]
+ 8,108,390,200,970      instructions              #    1.08  insns per cycle        
+                                                  #    0.60  stalled cycles per insn [16.13%]
+    25,642,281,009      cache-references          #    8.456 M/sec                   [16.13%]
+     7,734,099,235      cache-misses              #   30.162 % of all cache refs     [16.14%]
+ 1,170,487,602,546      branch-instructions       #  385.974 M/sec                   [16.14%]
+    19,532,990,468      branch-misses             #    1.67% of all branches         [16.14%]
+ 4,829,278,430,006      stalled-cycles-frontend   #   64.19% frontend cycles idle    [12.91%]
+ 1,500,999,107,664      stalled-cycles-backend    #   19.95% backend  cycles idle    [12.91%]
+ 7,152,009,044,781      ref-cycles                # 2358.409 M/sec                   [16.13%]
+    3032651.242683      cpu-clock (msec)                                            
+    3032556.810845      task-clock (msec)         #   17.314 CPUs utilized          
+           923,229      page-faults               #    0.304 K/sec                  
+           667,200      context-switches          #    0.220 K/sec                  
+            24,890      cpu-migrations            #    0.008 K/sec                  
+           919,542      minor-faults              #    0.303 K/sec                  
+                 2      major-faults              #    0.000 K/sec                  
+                 0      alignment-faults          #    0.000 K/sec                  
+                 0      emulation-faults          #    0.000 K/sec                  
+ 2,413,749,475,339      L1-dcache-loads           #  795.945 M/sec                   [16.13%]
+    71,106,813,038      L1-dcache-load-misses     #    2.95% of all L1-dcache hits   [16.13%]
+   834,443,221,069      L1-dcache-stores          #  275.162 M/sec                   [16.13%]
+    16,620,782,699      L1-dcache-store-misses    #    5.481 M/sec                   [16.13%]
+    56,907,964,032      L1-dcache-prefetches      #   18.766 M/sec                   [12.91%]
+    43,579,373,465      L1-dcache-prefetch-misses #   14.371 M/sec                   [12.90%]
+ 2,898,357,708,546      L1-icache-loads           #  955.747 M/sec                   [12.90%]
+    13,591,370,155      L1-icache-load-misses     #    0.47% of all L1-icache hits   [12.91%]
+    14,512,639,985      LLC-loads                 #    4.786 M/sec                   [12.91%]
+     2,707,103,721      LLC-load-misses           #   18.65% of all LL-cache hits    [12.91%]
+    30,752,648,190      LLC-stores                #   10.141 M/sec                   [ 6.46%]
+     4,803,673,604      LLC-store-misses          #    1.584 M/sec                   [ 6.46%]
+    34,300,233,748      LLC-prefetches            #   11.311 M/sec                   [ 6.46%]
+     5,357,855,743      LLC-prefetch-misses       #    1.767 M/sec                   [ 6.46%]
+ 2,413,976,636,705      dTLB-loads                #  796.020 M/sec                   [ 9.69%]
+     1,531,292,932      dTLB-load-misses          #    0.06% of all dTLB cache hits  [12.91%]
+   835,638,294,132      dTLB-stores               #  275.556 M/sec                   [12.91%]
+       183,616,471      dTLB-store-misses         #    0.061 M/sec                   [12.91%]
+ 8,125,719,813,208      iTLB-loads                # 2679.495 M/sec                   [12.90%]
+       163,213,466      iTLB-load-misses          #    0.00% of all iTLB cache hits  [12.90%]
+ 1,170,677,107,104      branch-loads              #  386.036 M/sec                   [12.90%]
+   577,293,353,386      branch-load-misses        #  190.365 M/sec                   [12.91%]
+
+     175.150337617 seconds time elapsed
+

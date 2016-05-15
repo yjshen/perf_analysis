@@ -1,0 +1,10 @@
+
+ Performance counter stats for process id '25329':
+
+20,311,552,799,908      cpu-cycles                #    2.450 GHz                     [12.89%]
+ 8,330,027,482,667      instructions              #    0.41  insns per cycle        
+                                                  #    2.10  stalled cycles per insn [16.12%]
+    53,570,983,776      cache-references          #    6.461 M/sec                   [16.12%]
+    34,424,816,375      cache-misses              #   64.260 % of all cache refs     [16.12%]
+ 1,233,286,812,819      branch-instructions       #  148.736 M/sec                   [16.13%]
+    19,371,331,993      branch-misses             #  
